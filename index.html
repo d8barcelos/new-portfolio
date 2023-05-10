@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link id="style" rel="stylesheet" type="text/css" href="dark.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   </head>
   <body>
     <nav>
@@ -13,8 +14,8 @@
         <div class="list">
           <ul>
             <a href="#home"><li>Home</li></a>
-            <a href="#home"><li>Skills</li></a>
-            <a href="#home"><li>Projetos</li></a>
+            <a href="#sobre"><li>Sobre</li></a>
+            <a href="#projects"><li>Projetos</li></a>
           </ul>
         </div>
         <div class="buttons">
@@ -33,14 +34,67 @@
           <h1>DIOGO BARCELOS</h1>
           <h2>Front-end Developer</h2>
           <div class="social-media">
-            <a href="" target="_blank"><button>Linkedin</button></a>
-            <a href="" target="_blank"><button>Github</button></a>
+            <a href="https://www.linkedin.com/in/diogo-barcelos/" target="_blank"><button>Linkedin</button></a>
+            <a href="https://github.com/d8barcelos" target="_blank"><button>Github</button></a>
           </div>
         </div>
         <div class="container-img">
           <img src="./assets/developer-dark.3f07bd13.svg" />
         </div>
       </div>
+    </div>
+
+    <div class="sobre" id="sobre">
+      <h1>Sobre mim</h1>
+      <p>Desenvolvedor front-end com experiência em HTML, CSS e JavaScript. Também possuo conhecimento em frameworks como React.js e habilidades em UI/UX design.
+        Minha experiência com HTML e CSS inclui a criação de projetos que consomem APIs e o desenvolvimento de layouts responsivos e adaptáveis, com um olhar atento para os detalhes visuais. Tenho um entendimento profundo do uso semântico do HTML e utilizo CSS puro ou frameworks como Tailwind e Bootstrap para estilizar componentes e criar animações, possuo grande conhecimento em responsividade e desenvolvimento de páginas com base em layouts do Figma.
+        Além disso, possuo habilidades avançadas em JavaScript, que me permitem criar interações dinâmicas e implementar APIs em páginas web, bem como construir aplicações completas em React.js. Trabalho com foco em criar interfaces intuitivas e agradáveis para o usuário, priorizando sempre a experiência do usuário final.</p>
+    </div>
+
+    <div class="container-all">
+    <div class="projects-title" id="projects">
+      <h1>Projetos</h1>
+    </div>
+    <div class="projects-container">
+      <div class="card">
+        <img src="./assets/weatherprint.PNG" alt="Project Image">
+        <div class="card-info">
+          <h3 class="project-title">Weather App</h3>
+          <p class="project-description">Aplicação web feita com HTML, CSS e JavaScript, consumindo a API OpenWeatherMap para mostrar informações meteorológicas em tempo real.</p>
+          <div class="project-links">
+            <a href="https://d8barcelos.github.io/weather-app/" target="_blank" class="button primary">Ver Projeto</a>
+            <a href="https://github.com/d8barcelos/weather-app" target="_blank" class="button">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/moviesprint.PNG" alt="Project Image">
+        <div class="card-info">
+          <h3 class="project-title">Movies App</h3>
+          <p class="project-description">Aplicação web feita com HTML, CSS e React.js que consome a API TheMoviesDatabase para mostrar filmes com dados e informações relevantes sobre eles.</p>
+          <div class="project-links">
+            <a href="https://resilient-selkie-74a524.netlify.app" target="_blank" class="button primary">Ver Projeto</a>
+            <a href="https://github.com/d8barcelos/movies-app" target="_blank" class="button">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/todoprint.PNG" alt="Project Image">
+        <div class="card-info">
+          <h3 class="project-title">Todo-List</h3>
+          <p class="project-description">Lista de tarefas feita com HTML, CSS e React.js, a aplicação utiliza hooks e estados que permitem adicionar, marcar como realizada ou exlcuir uma tarefa.</p>
+          <div class="project-links">
+            <a href="https://todo-list-1g72.vercel.app" target="_blank" class="button primary">Ver Projeto</a>
+            <a href="https://github.com/d8barcelos/todo-list" target="_blank" class="button">GitHub</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+
+    <div class="footer">
+      Feito por Diogo Barcelos
     </div>
 
     <script>

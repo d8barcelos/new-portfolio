@@ -60,11 +60,10 @@ body {
     border-radius: 7px;
     background-color: #6366F1;
     border: none;
+    cursor: pointer;
     color: #fff;
     font-size: 14px;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
-    margin-right: 20px;
 }
 
 .buttons .download:hover {
@@ -80,8 +79,8 @@ body {
     margin-left: 20px;
     border: none;
     background-color: #EEf2FF;
-    color: #F7F8Fc;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .dark-mode .i {
@@ -144,6 +143,210 @@ body {
     background-color: #6366F1;
     color: #EEf2FF;
 }
+
+.sobre {
+    padding-top: 60px;
+}
+
+.sobre h1 {
+    text-align: center;
+    color: #0D2438;
+}
+
+.sobre p {
+    color: #0D2438;
+    margin: 4em;
+    letter-spacing: 1px;
+}
+
+.projects-title h1 {
+    color: #1E3851;
+    text-align: center;
+    margin: 40px;
+}
+
+.card {
+    width: 325px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.project-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1E3851;
+}
+
+.project-description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1E3851;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #6366F1;
+    color: #6366F1;
+}
+
+.button.primary {
+    background-color: #6366F1;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #6366F1;
+    color: #fff;
+    border-color: #4b4eee;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D2438;
+    height: 100px;
+}
+
+@media screen and (max-width: 690px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container-text {
+        margin-left: 120px;
+        margin-top: 150px;
+    }
+
+    .container img {
+        width: 550px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .buttons .download {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dark-mode {
+        margin-left: 150px;
+    }
+
+    .sobre {
+        text-align: center;
+    }
+
+    .sobre h1 {
+        margin-left: 120px;
+    }
+
+    .sobre p {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sobre {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .sobre h1 {
+        margin-left: 125px;
+    }
+
+    .sobre p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container img {
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .container-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-title {
+        margin-left: 125px;
+    }
+
+    .dark-mode {
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .projects-container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .projects-container {
+        margin-left: 120px;
+    } 
+    
+    
+    .footer {
+        display: none;
+    }
+}
+
 
 
 
