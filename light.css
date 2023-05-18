@@ -15,13 +15,21 @@ body {
     background: #fff;
 }
 
+.glass {
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
     height: 50px;
-    background-color: #fff;
 }
 
 .navbar a {
@@ -110,7 +118,7 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin-top: 80px;
 }
 
 
@@ -245,7 +253,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        padding: 20px;
+        padding: 15px;
         height: auto;
     }
 
@@ -269,6 +277,7 @@ body {
 
     .container {
         flex-direction: column;
+        margin-top: 80px;
     }
 
     .container img {
