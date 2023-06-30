@@ -252,14 +252,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar {
-        padding: 15px;
-        height: auto;
-    }
 
-    .navbar ul {
-        flex-direction: column;
-        margin: 20px 0 0 0;
+
+    .buttons .download {
+        display: none
     }
 
     .card {
@@ -297,6 +293,8 @@ body {
     }
 }
 
+
+
 @media only screen and (max-width: 425px) {
     .buttons {
         flex-direction: column;
@@ -307,7 +305,7 @@ body {
     }
 
     .dark-mode {
-        margin: 10px 0;
+        padding-left: 10px;
     }
 
     .container-text {
@@ -333,10 +331,14 @@ body {
         font-size: 20px;
     }
 
+    .project-links a {
+        text-align: center;
+        margin: auto;
+    }
+
     .project-description {
         font-size: 14px;
     }
 }
-
 
 
